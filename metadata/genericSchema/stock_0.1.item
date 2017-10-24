@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_iaAsELIhEeetEqENTUfjug" comment="connectionComment" label="connectionLabel" dataPackage="_iaAsEbIhEeetEqENTUfjug" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_iaAsEbIhEeetEqENTUfjug" dataManager="_iaAsELIhEeetEqENTUfjug">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iaAsErIhEeetEqENTUfjug" id="_8v2XYLIhEeetEqENTUfjug" label="stock">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsE7IhEeetEqENTUfjug" name="Symbol" id="1261" label="Symbol" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String" key="true">
+        <initialValue xmi:id="_iaAsFLIhEeetEqENTUfjug"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsFbIhEeetEqENTUfjug" name="Ask" id="2703" label="newAsk" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_iaAsFrIhEeetEqENTUfjug"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsF7IhEeetEqENTUfjug" name="AverageDailyVolume" id="2704" label="AverageDailyVolume" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_iaAsGLIhEeetEqENTUfjug"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsGbIhEeetEqENTUfjug" name="Bid" id="2705" label="newBid" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_iaAsGrIhEeetEqENTUfjug"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsG7IhEeetEqENTUfjug" name="BookValue" id="2706" label="BookValue" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_iaAsHLIhEeetEqENTUfjug"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsHbIhEeetEqENTUfjug" name="AskRealtime" id="2707" label="newAskRealtime" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_iaAsHrIhEeetEqENTUfjug"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsH7IhEeetEqENTUfjug" name="BidRealtime" id="2708" label="newBidRealtime" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_iaAsILIhEeetEqENTUfjug"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsI7IhEeetEqENTUfjug" name="Currency" id="2710" label="Currency" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_iaAsJLIhEeetEqENTUfjug"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsJbIhEeetEqENTUfjug" name="ChangeRealtime" id="2711" label="newChangeRealtime" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_iaAsJrIhEeetEqENTUfjug"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iaAsJ7IhEeetEqENTUfjug" name="DividendShare" id="2713" label="newDividendShare" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_iaAsKLIhEeetEqENTUfjug"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
